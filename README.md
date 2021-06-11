@@ -2,7 +2,7 @@
 Collects market data using ETrade's api and stores them for later use and analysis
 
 # Important:
-Currently this tool only works for collecting Historical data for 1 second time interval candlestick charts from US stock exhchanges. Will update for more functionality in the future.
+Currently this tool only works for collecting Historical data for 1 second time interval candlestick charts from US stock exchanges. Will update for more functionality in the future.
 Future plans include: live data collection, functionality for different time intervals, and functionality for different chart types.
 
 # How To Use:
