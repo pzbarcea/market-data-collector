@@ -12,6 +12,6 @@ onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 for file in onlyfiles:
     result = re.search(r"([A-Za-z]+)\.USUSD_Candlestick_1_s_(ASK|BID)\_(\d{2})\.(\d{2})\.(\d{4})\-\d{2}\.\d{2}\.\d{4}\.csv", file)
     if result != None:
-        new_filename = result.group(1) + "_" + result.group(4) + result.group(3) + result.group(5) + "_" + result.group(2)
+        new_filename = result.group(1) + "_" + result.group(4) + result.group(3) + result.group(5) + "_" + result.group(2) + ".csv"
         print(new_filename)
         os.rename(file, new_filename)
